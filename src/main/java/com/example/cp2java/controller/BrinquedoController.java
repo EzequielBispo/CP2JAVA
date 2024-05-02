@@ -1,6 +1,7 @@
 package com.example.cp2java.controller;
 
 import com.example.cp2java.model.Brinquedo;
+import com.example.cp2java.service.BrinquedoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import static org.springframework.http.HttpStatus.CREATED;
@@ -10,7 +11,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 public class BrinquedoController {
 
     @Autowired
-    ClienteService service;
+    BrinquedoService service;
 
     @GetMapping("/{id}")
     public Brinquedo buscarId(@PathVariable int id) {
