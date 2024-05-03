@@ -27,35 +27,36 @@ O sistema foi implementado seguindo os princípios do framework Spring Boot. For
 
 ## Endpoints Disponíveis
 
-1. GET /brinquedos: Retorna todos os brinquedos cadastrados no banco de dados.
-2. POST /brinquedos: Adiciona um novo brinquedo ao banco de dados. Os dados devem ser enviados em formato JSON.
-3. GET /brinquedos/{id}: Retorna um brinquedo específico com base no ID fornecido.
-4. PUT /brinquedos/{id}: Atualiza as informações de um brinquedo existente com base no ID fornecido. Os novos dados devem ser enviados em formato JSON.
-5. DELETE /brinquedos/{id}: Remove um brinquedo do banco de dados com base no ID fornecido.
+1. POST /brinquedos: Adiciona um novo brinquedo ao banco de dados. Os dados devem ser enviados em formato JSON.
+2. GET /brinquedos/{id}: Retorna um brinquedo específico com base no ID fornecido.
+3. PUT /brinquedos/{id}: Atualiza as informações de um brinquedo existente com base no ID fornecido. Os novos dados devem ser enviados em formato JSON.
+4. DELETE /brinquedos/{id}: Remove um brinquedo do banco de dados com base no ID fornecido.
 
 ## Testes Web com Postman
 
 Foram realizados testes dos endpoints utilizando o software Postman. Abaixo estão os prints de tela dos testes realizados:
 
-1. GET /brinquedos:
 
-   ![GET /brinquedos](get_brinquedos.png)
+1. **POST /brinquedos**:
 
-2. **POST /brinquedos**:
+   ![image](https://github.com/EzequielBispo/CP2JAVA/assets/73908875/7014cac1-2ea7-45dd-8363-26bca0f0695d)
 
-   ![POST /brinquedos](post_brinquedos.png)
 
-3. GET /brinquedos/{id}:
 
-   ![GET /brinquedos/{id}](get_brinquedos_id.png)
+2. GET /brinquedos/{id}:
 
-4. PUT /brinquedos/{id}:
+   ![image](https://github.com/EzequielBispo/CP2JAVA/assets/73908875/3d1dcf79-0104-4086-b0b8-7b242922d606)
 
-   ![PUT /brinquedos/{id}](put_brinquedos_id.png)
 
-5. DELETE /brinquedos/{id}:
+3. PUT /brinquedos/{id}:
 
-   ![DELETE /brinquedos/{id}](delete_brinquedos_id.png)
+   ![image](https://github.com/EzequielBispo/CP2JAVA/assets/73908875/9c1eca66-d939-4ccb-ab85-ac91948dff0b)
+
+
+
+4. DELETE /brinquedos/{id}:
+
+   ![image](https://github.com/EzequielBispo/CP2JAVA/assets/73908875/d9c73e7a-be8d-4c80-8adb-7a7a8ea70221)
 
 ## Conclusão
 
